@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.pem
+*.key
+id_rsa
+id_ed25519
+known_hosts.local
+downloaded-*
+test_server_key
+known_hosts_test
+sftp_test_files/
+test.txt
+downloaded-test.txt
