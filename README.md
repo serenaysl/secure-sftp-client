@@ -151,49 +151,6 @@ timing, and packet sizes can still be visible.
 9. Filter by `tcp.port == 22`.
 10. Show that the actual file contents are not visible.
 
-## Rubric mapping
-
-### Functionality — 40%
-
-The application can:
-- connect,
-- list remote files,
-- upload,
-- download,
-- create directories,
-- calculate hashes.
-
-### Security — 30%
-
-The application:
-- uses SSH/SFTP encryption,
-- rejects unknown host keys,
-- does not hard-code credentials,
-- hides password input,
-- supports private-key authentication,
-- verifies integrity with SHA-256,
-- handles authentication and host-key failures.
-
-### Code Quality — 20%
-
-The project uses:
-- a class-based client,
-- reusable functions,
-- type hints,
-- docstrings,
-- argument parsing,
-- structured exception handling,
-- context-manager cleanup.
-
-### Documentation — 10%
-
-This README documents:
-- setup,
-- security controls,
-- usage,
-- Wireshark verification,
-- demonstration steps.
-
 ## Security limitations
 
 - SHA-256 verifies local file equality but does not by itself prove who created a file.
